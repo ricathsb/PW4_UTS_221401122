@@ -1,0 +1,72 @@
+*{
+    color: black;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    min-height: 100vh !important;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+navbar{
+    background: #2980b9;
+}
+
+section {
+    padding-bottom: 10pt;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+}
+
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+.card {
+    width: 100%;
+    background-color: #ecf0f1;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.logo{
+    height: 50px;
+    width: 100%
+}
+
+.img-caraousel {
+    border-radius: 10pt;
+}
+
+.img-contact {
+    height: 75px;
+    width: auto;
+}
+.profile{
+    height: 300px ;
+    padding-bottom: 10pt;
+}
+.sub-profile {
+    height: 200px;
+    padding-bottom:5pt ;
+}
